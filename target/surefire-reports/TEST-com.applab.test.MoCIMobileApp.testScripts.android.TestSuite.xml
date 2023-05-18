@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.applab.test.MoCIMobileApp.testScripts.android.TestSuite" time="65.622" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\thoma\eclipse-workspace\MoCIMobileApp_Appcenter_Integration\target\test-classes;C:\Users\thoma\eclipse-workspace\MoCIMobileApp_Appcenter_Integration\target\classes;C:\Users\thoma\.m2\repository\org\apache\maven\archetypes\maven-archetype-quickstart\1.4\maven-archetype-quickstart-1.4.jar;C:\Users\thoma\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\thoma\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\thoma\.m2\repository\io\appium\java-client\8.5.0\java-client-8.5.0.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\thoma\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\thoma\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\thoma\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\thoma\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\thoma\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\thoma\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\thoma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\thoma\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\thoma\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\thoma\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\thoma\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\thoma\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\thoma\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\thoma\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\thoma\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\thoma\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\thoma\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\thoma\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\thoma\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\thoma\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\thoma\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\thoma\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\thoma\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\thoma\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\thoma\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\thoma\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\thoma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\thoma\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\thoma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\thoma\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\thoma\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\thoma\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\thoma\.m2\repository\com\microsoft\appcenter\appium-test-extension\1.6\appium-test-extension-1.6.jar;C:\Users\thoma\.m2\repository\net\sourceforge\streamsupport\streamsupport\1.5.1\streamsupport-1.5.1.jar;C:\Users\thoma\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Riyadh"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\thoma\Downloads\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\thoma\AppData\Local\Temp\surefire16176209122354920756\surefirebooter-20230518120503294_3.jar C:\Users\thoma\AppData\Local\Temp\surefire16176209122354920756 2023-05-18T12-05-03_158-jvmRun1 surefire-20230518120503294_1tmp surefire_0-20230518120503294_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\thoma\eclipse-workspace\MoCIMobileApp_Appcenter_Integration\target\test-classes;C:\Users\thoma\eclipse-workspace\MoCIMobileApp_Appcenter_Integration\target\classes;C:\Users\thoma\.m2\repository\org\apache\maven\archetypes\maven-archetype-quickstart\1.4\maven-archetype-quickstart-1.4.jar;C:\Users\thoma\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\thoma\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\thoma\.m2\repository\io\appium\java-client\8.5.0\java-client-8.5.0.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\thoma\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\thoma\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\thoma\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\thoma\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\thoma\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\thoma\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\thoma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\thoma\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\thoma\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\thoma\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\thoma\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\thoma\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\thoma\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\thoma\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\thoma\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\thoma\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\thoma\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\thoma\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\thoma\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\thoma\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\thoma\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\thoma\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\thoma\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\thoma\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\thoma\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\thoma\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\thoma\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\thoma\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\thoma\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\thoma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\thoma\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\thoma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\thoma\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\thoma\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\thoma\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\thoma\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\thoma\.m2\repository\com\microsoft\appcenter\appium-test-extension\1.6\appium-test-extension-1.6.jar;C:\Users\thoma\.m2\repository\net\sourceforge\streamsupport\streamsupport\1.5.1\streamsupport-1.5.1.jar;C:\Users\thoma\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\thoma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Users\thoma\Downloads\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\thoma\eclipse-workspace\MoCIMobileApp_Appcenter_Integration"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\thoma\AppData\Local\Temp\surefire16176209122354920756\surefirebooter-20230518120503294_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="Thomas"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\thoma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\thoma\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\thoma\eclipse-workspace\MoCIMobileApp_Appcenter_Integration"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\thoma\Downloads\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\thoma\AppData\Local\Android\Sdk\tools\bin;C:\Users\thoma\AppData\Local\Android\Sdk\tools;C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\thoma\apache-maven-3.8.8\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="" classname="com.applab.test.MoCIMobileApp.testScripts.android.TestPopularServicesGuestUser" time="65.406">
+    <error message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\thoma\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.&#10;This adb server&apos;s $ADB_VENDOR_KEYS is not set&#10;Try &apos;adb kill-server&apos; if that seems wrong.&#10;Otherwise check for a confirmation dialog on your device.&#10; &#10;Host info: host: &apos;THOMAS&apos;, ip: &apos;192.168.1.244&apos;&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: com.microsoft.appcenter.appium.EnhancedAndroidDriver&#10;Command: [null, newSession {capabilities=[{appium:app=C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk, appium:automationName=UIAutomator2, appium:autoGrantPermissions=true, appium:deviceName=RF8TB0QC1TJ, platformName=ANDROID, appium:resetKeyboard=true, appium:unicodeKeyboard=false}], desiredCapabilities=Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}}]&#10;Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\thoma\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'THOMAS', ip: '192.168.1.244'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.microsoft.appcenter.appium.EnhancedAndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk, appium:automationName=UIAutomator2, appium:autoGrantPermissions=true, appium:deviceName=RF8TB0QC1TJ, platformName=ANDROID, appium:resetKeyboard=true, appium:unicodeKeyboard=false}], desiredCapabilities=Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}}]
+Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.<init>(EnhancedAndroidDriver.java:17)
+	at com.microsoft.appcenter.appium.LocalProvider.createAndroidDriver(LocalProvider.java:20)
+	at com.microsoft.appcenter.appium.Factory.createAndroidDriver(Factory.java:51)
+	at com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.ConfigureAppium(AndroidBaseClass.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[WARN Appium Appium encountered 10 warnings while validating drivers found in manifest C:\Users\thoma\node_modules\.cache\appium\extensions.yaml
+WARN Appium Driver "fake" has 1 potential problem: 
+WARN Appium   - Driver "fake" (package `appium-fake-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-fake-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "flutter" has 1 potential problem: 
+WARN Appium   - Driver "flutter" (package `appium-flutter-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-flutter-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "espresso" has 1 potential problem: 
+WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-espresso-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "gecko" has 1 potential problem: 
+WARN Appium   - Driver "gecko" (package `appium-geckodriver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-geckodriver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "mac2" has 1 potential problem: 
+WARN Appium   - Driver "mac2" (package `appium-mac2-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-mac2-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "safari" has 1 potential problem: 
+WARN Appium   - Driver "safari" (package `appium-safari-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-safari-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "xcuitest" has 1 potential problem: 
+WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-xcuitest-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "YouiEngine" has 1 potential problem: 
+WARN Appium   - Driver "YouiEngine" (package `appium-youiengine-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-youiengine-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+WARN Appium Driver "windows" has 1 potential problem: 
+WARN Appium   - Driver "windows" (package `appium-windows-driver`) may be incompatible with the current version of Appium (v2.0.0-beta.66) due to an invalid or missing peer dependency on Appium. Please ask the developer of `appium-windows-driver` to add a peer dependency on `^appium@2.0.0-beta.66`.
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.0-beta.66
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver fake...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-fake-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver flutter...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-flutter-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver espresso...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-espresso-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver gecko...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-geckodriver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver mac2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-mac2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver safari...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-safari-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-uiautomator2-driver
+reusing global emitter
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver xcuitest...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-xcuitest-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver YouiEngine...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-youiengine-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver windows...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-windows-driver
+(node:24412) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:4723
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - fake@1.0.2 (automationName 'Fake')
+&amp#27;[35m[Appium]&amp#27;[39m   - flutter@0.0.36 (automationName 'Flutter')
+&amp#27;[35m[Appium]&amp#27;[39m   - espresso@1.50.1 (automationName 'Espresso')
+&amp#27;[35m[Appium]&amp#27;[39m   - gecko@0.3.3 (automationName 'Gecko')
+&amp#27;[35m[Appium]&amp#27;[39m   - mac2@0.14.1 (automationName 'Mac2')
+&amp#27;[35m[Appium]&amp#27;[39m   - safari@2.2.1 (automationName 'Safari')
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.23.0 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m   - xcuitest@3.62.0 (automationName 'XCUITest')
+&amp#27;[35m[Appium]&amp#27;[39m   - YouiEngine@1.2.9 (automationName 'YouiEngine')
+&amp#27;[35m[Appium]&amp#27;[39m   - windows@1.21.1 (automationName 'Windows')
+&amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.66"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 47&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: 3d4bb548-329e-4a9e-b140-4397e055085b
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk","appium:autoGrantPermissions":"true","appium:automationName":"UIAutomator2","appium:deviceName":"RF8TB0QC1TJ","appium:resetKeyboard":"true","appium:unicodeKeyboard":"false","platformName":"ANDROID"}}}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk","appium:autoGrantPermissions":"true","appium:automationName":"UIAutomator2","appium:deviceName":"RF8TB0QC1TJ","appium:resetKeyboard":"true","appium:unicodeKeyboard":"false","platformName":"ANDROID"}}]
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Event 'newSessionRequested' logged at 1684400767225 (12:06:07 GMT+0300 (Arabian Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+&amp#27;[35m[Appium]&amp#27;[39m The 'uiautomator2' driver was installed and matched caps.
+&amp#27;[35m[Appium]&amp#27;[39m Will require it at C:/Users/thoma/node_modules/appium-uiautomator2-driver
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-uiautomator2-driver
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Appium v2.0.0-beta.66 creating new AndroidUiautomator2Driver (v2.23.0) session
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Appium's BaseDriver version is 9.3.7
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.3.7
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m Creating session with W3C capabilities: {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m   "alwaysMatch": {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "platformName": "ANDROID",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "appium:app": "C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "appium:autoGrantPermissions": "true",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "appium:automationName": "UIAutomator2",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "appium:deviceName": "RF8TB0QC1TJ",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "appium:resetKeyboard": "true",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     "appium:unicodeKeyboard": "false"
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m   },
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m   "firstMatch": [
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m     {}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m   ]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m }
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b967]&amp#27;[0m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b967 (86e5ddc9)]&amp#27;[0m Session created with session id: 86e5ddc9-c3c1-4f08-9a9b-0c6b2a54d485
+&amp#27;[38;5;48m[BaseDriver]&amp#27;[0m Using local app 'C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967 (86e5ddc9)]&amp#27;[0m Checking whether app is actually present
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Found 2 'build-tools' folders under 'C:\Users\thoma\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[38;5;64m[ADB]&amp#27;[0m     C:/Users/thoma/AppData/Local/Android/Sdk/build-tools/33.0.2
+&amp#27;[38;5;64m[ADB]&amp#27;[0m     C:/Users/thoma/AppData/Local/Android/Sdk/build-tools/30.0.3
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Retrieving device list
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Trying to find a connected android device
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m No connected devices have been detected
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Could not find online devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m No connected devices have been detected
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Could not find online devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m No connected devices have been detected
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Could not find online devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m No connected devices have been detected
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Could not find online devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m No connected devices have been detected
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Could not find online devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m No connected devices have been detected
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Could not find online devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Connected devices: [{"udid":"RF8TB0QC1TJ","state":"unauthorized"}]
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Using device: RF8TB0QC1TJ
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Setting device id to RF8TB0QC1TJ
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b967 (86e5ddc9)]&amp#27;[0m Deleting UiAutomator2 session
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Event 'newSessionStarted' logged at 1684400769116 (12:06:09 GMT+0300 (Arabian Standard Time))
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Encountered internal error running command: Error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\thoma\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m This adb server's $ADB_VENDOR_KEYS is not set
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Try 'adb kill-server' if that seems wrong.
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Otherwise check for a confirmation dialog on your device.
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m 
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at ADB.getApiLevel (C:\Users\thoma\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\adb-commands.js:159:13)
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at AndroidUiautomator2Driver.deleteSession (C:\Users\thoma\node_modules\appium-uiautomator2-driver\lib\driver.js:699:11)
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at AndroidUiautomator2Driver.createSession (C:\Users\thoma\node_modules\appium-uiautomator2-driver\lib\driver.js:249:7)
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at AppiumDriver.createSession (C:\Users\thoma\AppData\Roaming\npm\node_modules\appium\lib\appium.js:346:35)
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m1922 ms - 1510&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="" classname="com.applab.test.MoCIMobileApp.testScripts.android.TestPopularServicesGuestUser" time="65.407">
+    <error message="Cannot invoke &quot;com.microsoft.appcenter.appium.EnhancedAndroidDriver.label(String)&quot; because &quot;com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.microsoft.appcenter.appium.EnhancedAndroidDriver.label(String)" because "com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.driver" is null
+	at com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.tearDown(AndroidBaseClass.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+  </testcase>
+  <testcase name="" classname="com.applab.test.MoCIMobileApp.testScripts.android.TestPopularServicesRegisteredUser" time="65.619">
+    <error message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\thoma\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.&#10;This adb server&apos;s $ADB_VENDOR_KEYS is not set&#10;Try &apos;adb kill-server&apos; if that seems wrong.&#10;Otherwise check for a confirmation dialog on your device.&#10; &#10;Host info: host: &apos;THOMAS&apos;, ip: &apos;192.168.1.244&apos;&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: com.microsoft.appcenter.appium.EnhancedAndroidDriver&#10;Command: [null, newSession {capabilities=[{appium:app=C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk, appium:automationName=UIAutomator2, appium:autoGrantPermissions=true, appium:deviceName=RF8TB0QC1TJ, platformName=ANDROID, appium:resetKeyboard=true, appium:unicodeKeyboard=false}], desiredCapabilities=Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}}]&#10;Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\thoma\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'THOMAS', ip: '192.168.1.244'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.microsoft.appcenter.appium.EnhancedAndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk, appium:automationName=UIAutomator2, appium:autoGrantPermissions=true, appium:deviceName=RF8TB0QC1TJ, platformName=ANDROID, appium:resetKeyboard=true, appium:unicodeKeyboard=false}], desiredCapabilities=Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}}]
+Capabilities {app: C://Users//thoma//eclipse-w..., appium:automationName: UIAutomator2, autoGrantPermissions: true, deviceName: RF8TB0QC1TJ, platformName: ANDROID, resetKeyboard: true, unicodeKeyboard: false}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.<init>(EnhancedAndroidDriver.java:17)
+	at com.microsoft.appcenter.appium.LocalProvider.createAndroidDriver(LocalProvider.java:20)
+	at com.microsoft.appcenter.appium.Factory.createAndroidDriver(Factory.java:51)
+	at com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.ConfigureAppium(AndroidBaseClass.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.66"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1 ms - 47&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: 0af7c06f-1edc-4175-9a49-9921829aed37
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk","appium:autoGrantPermissions":"true","appium:automationName":"UIAutomator2","appium:deviceName":"RF8TB0QC1TJ","appium:resetKeyboard":"true","appium:unicodeKeyboard":"false","platformName":"ANDROID"}}}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk","appium:autoGrantPermissions":"true","appium:automationName":"UIAutomator2","appium:deviceName":"RF8TB0QC1TJ","appium:resetKeyboard":"true","appium:unicodeKeyboard":"false","platformName":"ANDROID"}}]
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Event 'newSessionRequested' logged at 1684400769237 (12:06:09 GMT+0300 (Arabian Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+&amp#27;[35m[Appium]&amp#27;[39m The 'uiautomator2' driver was installed and matched caps.
+&amp#27;[35m[Appium]&amp#27;[39m Will require it at C:/Users/thoma/node_modules/appium-uiautomator2-driver
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:/Users/thoma/node_modules/appium-uiautomator2-driver
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Appium v2.0.0-beta.66 creating new AndroidUiautomator2Driver (v2.23.0) session
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Appium's BaseDriver version is 9.3.7
+&amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.3.7
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m Creating session with W3C capabilities: {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m   "alwaysMatch": {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "platformName": "ANDROID",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "appium:app": "C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "appium:autoGrantPermissions": "true",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "appium:automationName": "UIAutomator2",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "appium:deviceName": "RF8TB0QC1TJ",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "appium:resetKeyboard": "true",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     "appium:unicodeKeyboard": "false"
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m   },
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m   "firstMatch": [
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m     {}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m   ]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m }
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05]&amp#27;[0m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05 (69a9c005)]&amp#27;[0m Session created with session id: 69a9c005-1830-457b-8933-34e657b49193
+&amp#27;[38;5;48m[BaseDriver]&amp#27;[0m Using local app 'C://Users//thoma//eclipse-workspace//MoCIMobileApp_Appcenter_Integration//app-development-debug-17-05.apk'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05 (69a9c005)]&amp#27;[0m Checking whether app is actually present
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Retrieving device list
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Trying to find a connected android device
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Connected devices: [{"udid":"RF8TB0QC1TJ","state":"unauthorized"}]
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Using device: RF8TB0QC1TJ
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Setting device id to RF8TB0QC1TJ
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@fd05 (69a9c005)]&amp#27;[0m Deleting UiAutomator2 session
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\thoma\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Event 'newSessionStarted' logged at 1684400769427 (12:06:09 GMT+0300 (Arabian Standard Time))
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Encountered internal error running command: Error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\thoma\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RF8TB0QC1TJ shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m This adb server's $ADB_VENDOR_KEYS is not set
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Try 'adb kill-server' if that seems wrong.
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m Otherwise check for a confirmation dialog on your device.
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m 
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at ADB.getApiLevel (C:\Users\thoma\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\adb-commands.js:159:13)
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at AndroidUiautomator2Driver.deleteSession (C:\Users\thoma\node_modules\appium-uiautomator2-driver\lib\driver.js:699:11)
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at AndroidUiautomator2Driver.createSession (C:\Users\thoma\node_modules\appium-uiautomator2-driver\lib\driver.js:249:7)
+[debug] &amp#27;[38;5;16m[AppiumDriver@5a7d]&amp#27;[0m     at AppiumDriver.createSession (C:\Users\thoma\AppData\Roaming\npm\node_modules\appium\lib\appium.js:346:35)
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m192 ms - 1510&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="com.applab.test.MoCIMobileApp.testScripts.android.TestPopularServicesRegisteredUser" time="65.62">
+    <error message="Cannot invoke &quot;com.microsoft.appcenter.appium.EnhancedAndroidDriver.label(String)&quot; because &quot;com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.microsoft.appcenter.appium.EnhancedAndroidDriver.label(String)" because "com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.driver" is null
+	at com.applab.test.MoCIMobileApp.testUtils.AndroidBaseClass.tearDown(AndroidBaseClass.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+  </testcase>
+</testsuite>
